@@ -34,13 +34,13 @@ public class Zadatak6 {
 		}
 		System.out.print("Unesite N: ");
 		int n = s.nextInt();				//ovim odredjujemo koliko broja unosimo
-		for (int i = 0; i < n; i++) {
+		for (int i = 0; i < n; i++) { 
 			System.out.print("Unesite broj: ");
 			int broj = s.nextInt();
 			for (int j = 0; j < 6; j++) {
 				if (broj == j) {
 					brojac.set(j, brojac.get(j) + 1);
-			}			
+				}		
 			} 
 		}
 		System.out.println("Evidencija: ");
