@@ -1,1 +1,1 @@
-# osnove_jave_domaci
+# osnove_jave_vezba
